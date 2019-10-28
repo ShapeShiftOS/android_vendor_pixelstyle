@@ -21,6 +21,7 @@ PRODUCT_PACKAGES += \
     PixelThemesStub2019 \
     OPScreenRecorder \
     SafetyHubPrebuilt \
+    ShapeShiftOverlayStub \
     SettingsIntelligenceGooglePrebuilt
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
