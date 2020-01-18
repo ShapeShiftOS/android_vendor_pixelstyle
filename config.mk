@@ -221,7 +221,13 @@ PRODUCT_COPY_FILES += \
     vendor/pixelstyle/fonts/fontage/SofiaSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SofiaSans-Regular.ttf \
     vendor/pixelstyle/fonts/fontage/SofiaSans-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SofiaSans-Medium.ttf \
     vendor/pixelstyle/fonts/fontage/SofiaSansSemiCond-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SofiaSansSemiCond-Regular.ttf \
-    vendor/pixelstyle/fonts/fontage/SofiaSansSemiCond-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SofiaSansSemiCond-Medium.ttf
+    vendor/pixelstyle/fonts/fontage/SofiaSansSemiCond-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SofiaSansSemiCond-Medium.ttf \
     vendor/pixelstyle/fonts/EvolveSans.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/EvolveSans.ttf \
     vendor/pixelstyle/fonts/Linotte.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Linotte.ttf \
     vendor/pixelstyle/fonts/SamsungOne.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SamsungOne.ttf \
+    vendor/pixelstyle/fonts/FiraSans-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FiraSans-Bold.ttf \
+    vendor/pixelstyle/fonts/FiraSans-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FiraSans-BoldItalic.ttf \
+    vendor/pixelstyle/fonts/FiraSans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FiraSans-Italic.ttf \
+    vendor/pixelstyle/fonts/FiraSans-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FiraSans-Medium.ttf \
+    vendor/pixelstyle/fonts/FiraSans-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FiraSans-MediumItalic.ttf \
+    vendor/pixelstyle/fonts/FiraSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FiraSans-Regular.ttf 
