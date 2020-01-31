@@ -101,6 +101,7 @@ PRODUCT_PACKAGES += \
         PrimaryFlameOverlay \
         PrimaryColorCharcoalBlackOverlay \
         PrimaryColorLeadBlackOverlay \
+        PrimaryColorSolarizedDarkOverlay \
 	PrimaryColorBlackOverlay    
 
 #Accents
