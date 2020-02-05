@@ -23,7 +23,9 @@ PRODUCT_PACKAGES += \
 
 # Packages
 PRODUCT_PACKAGES += \
-    FluidThemesStub
+    FluidThemesStub \
+    EmptyOverlay
+
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
