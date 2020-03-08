@@ -98,6 +98,7 @@ PRODUCT_PACKAGES += \
         PrimaryColorBlissClearOverlay \
         PrimaryColorEyeSootherOverlay \
         PrimaryColorOneplusDarkOverlay \
+        PrimaryFlameOverlay \
 	PrimaryColorBlackOverlay    
 
 #Accents
