@@ -21,8 +21,7 @@ PRODUCT_PACKAGES += \
     OPScreenRecorder \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    GooglePermissionControllerOverlay \
-    PixelDocumentsUIGoogleOverlay
+    GooglePermissionControllerOverlay
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
