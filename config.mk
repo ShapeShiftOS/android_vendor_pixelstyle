@@ -29,10 +29,6 @@ PRODUCT_PACKAGES += \
     MatchmakerPrebuiltPixel4
 endif
 
-# Screenshot
-PRODUCT_PACKAGES += \
-    Screenshot
-
 # Offline charger
 PRODUCT_PACKAGES += \
     charger_res_images \
