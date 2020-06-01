@@ -17,6 +17,7 @@ LOCAL_PATH := vendor/pixelstyle
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     NexusWallpapersStubPrebuilt2019Static \
+    ShiftPapers \
     PixelThemesStub2019 \
     OPScreenRecorder \
     SafetyHubPrebuilt \
