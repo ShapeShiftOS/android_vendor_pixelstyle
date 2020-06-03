@@ -21,8 +21,7 @@ PRODUCT_PACKAGES += \
     PixelThemesStub2019 \
     OPScreenRecorder \
     SafetyHubPrebuilt \
-    SettingsIntelligenceGooglePrebuilt \
-    GooglePermissionControllerOverlay
+    SettingsIntelligenceGooglePrebuilt
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
