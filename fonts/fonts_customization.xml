@@ -107,4 +107,7 @@
     <family customizationType="new-named-family" name="sofia-semicondensed-medium">
         <font weight="300" style="normal">SofiaSansSemiCond-Medium.ttf</font>
     </family>
+    <family customizationType="new-named-family" name="cocon-regular">
+        <font weight="300" style="normal">Cocon-RegularTR.ttf</font>
+    </family>
 </fonts-modification>
