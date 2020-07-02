@@ -37,6 +37,9 @@ PRODUCT_PACKAGES += \
     OPScreenRecorder
 endif
 
+# Switch Styles
+include vendor/pixelstyle/switch/switch.mk
+
 # Offline charger
 PRODUCT_PACKAGES += \
     charger_res_images \
