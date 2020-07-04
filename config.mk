@@ -223,3 +223,4 @@ PRODUCT_COPY_FILES += \
     vendor/pixelstyle/fonts/fontage/SofiaSansSemiCond-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SofiaSansSemiCond-Regular.ttf \
     vendor/pixelstyle/fonts/fontage/SofiaSansSemiCond-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/SofiaSansSemiCond-Medium.ttf
     vendor/pixelstyle/fonts/EvolveSans.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/EvolveSans.ttf \
+    vendor/pixelstyle/fonts/Linotte.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Linotte.ttf \
