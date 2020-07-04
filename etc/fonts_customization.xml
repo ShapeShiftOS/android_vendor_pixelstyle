@@ -59,4 +59,7 @@
     </family>
     <alias name="san-francisco-pro-text-medium" to="san-francisco-pro-text" weight="500" />
 
+    <family customizationType="new-named-family" name="evolvesans">
+        <font weight="300" style="normal">EvolveSans.ttf</font>
+    </family>
 </fonts-modification>
