@@ -2,6 +2,7 @@
 /**
  * Copyright (c) 2019, The Android Open Source Project
  *                     Bootleggers ROM
+ *                     ShapeShiftOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,9 +19,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- DEFAULT VALUES HAHA YES, maybe switch to an actual overlay later? -->
+    <!-- DEFAULT VALUES HAHA YES -->
     <string name="theme_name_default">Default</string>
     <string name="theme_title_default">@string/theme_name_default</string>
+    <string name="theme_overlay_color_default">com.android.theme.color.discord</string>
+    <string name="theme_overlay_font_default">com.android.theme.font.sofiasans</string>
+    <string name="theme_overlay_icon_android_default">com.android.theme.icon_pack.rounded.android</string>
+    <string name="theme_overlay_icon_launcher_default">com.android.theme.icon_pack.rounded.launcher</string>
+    <string name="theme_overlay_icon_settings_default">com.android.theme.icon_pack.rounded.settings</string>
+    <string name="theme_overlay_icon_sysui_default">com.android.theme.icon_pack.rounded.systemui</string>
+    <string name="theme_overlay_primary_default">com.android.theme.color.primary.black</string>
     <string name="theme_wallpaper_title_default">Default Wallpaper</string>
     <string name="theme_wallpaper_attribution_default">Meh</string>
 
@@ -33,6 +41,7 @@
     <string name="theme_overlay_icon_launcher_electrigreen">com.android.theme.icon_pack.circular.launcher</string>
     <string name="theme_overlay_icon_settings_electrigreen">com.android.theme.icon_pack.circular.settings</string>
     <string name="theme_overlay_icon_sysui_electrigreen">com.android.theme.icon_pack.circular.systemui</string>
+     <string name="theme_overlay_primary_electrigreen">com.android.theme.color.primary.darkblue</string>
     <string name="theme_overlay_shape_electrigreen">com.android.theme.icon.squircle</string>
     <string name="theme_wallpaper_title_electrigreen">Neon Green Wallpaper</string>
     <string name="theme_wallpaper_attribution_electrigreen">edited by MCIJ7</string>
@@ -46,6 +55,7 @@
     <string name="theme_overlay_icon_settings_throwback">com.android.theme.icon_pack.filled.settings</string>
     <string name="theme_overlay_icon_sysui_throwback">com.android.theme.icon_pack.filled.systemui</string>
     <string name="theme_overlay_shape_throwback">com.android.theme.icon.roundedrect</string>
+    <string name="theme_overlay_primary_throwback">com.android.theme.color.primary.blissclear</string>
     <string name="theme_wallpaper_title_throwback">Orange Boi Wallpaper</string>
     <string name="theme_wallpaper_attribution_throwback">Meh</string>
 
