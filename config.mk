@@ -88,6 +88,75 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
 
+#Primaries
+PRODUCT_PACKAGES += \
+        PrimaryColorOceanOverlay \
+	PrimaryColorNatureOverlay \
+        PrimaryColorDarkBlueOverlay \
+        PrimaryColorAlmostBlackOverlay \
+        PrimaryColorBlissOverlay \
+        PrimaryColorBlissClearOverlay \
+        PrimaryColorEyeSootherOverlay \
+        PrimaryColorOneplusDarkOverlay \
+	PrimaryColorBlackOverlay    
+
+#Accents
+	AccentColorDarkOrangeOverlay \
+	AccentColorMIUIOverlay \
+        AccentColorNextbitOverlay \
+	AccentColorOnePlusOverlay \
+	AccentColorParanoidOverlay \
+        AccentColorShapeShifterOverlay \
+	AccentColorPepsiOverlay \
+	AccentColorTealOverlay \
+	AccentColorRedOverlay \
+	AccentColorQGreenOverlay \
+	AccentColorPinkOverlay \
+	AccentColorLightPurpleOverlay \
+	AccentColorIndigoOverlay \
+	AccentColorFlatPinkOverlay \
+	AccentColorCyanOverlay \
+	AccentColorBlueGrayOverlay \
+        AccentColorCocaColaOverlay \
+	AccentColorDiscordOverlay \
+	AccentColorGoldenShowerOverlay \
+	AccentColorJollibeeOverlay \
+        AccentColorRazerOverlay \
+        AccentColorStarbucksOverlay \
+	AccentColorUbuntuOverlay \
+	AccentColorMatrixOverlay \
+	AccentColorSalmonOverlay \
+	AccentColorMetallicGoldOverlay \
+	AccentColorInfernoRedOverlay \
+	AccentColorDorsetGoldOverlay \
+	AccentColorXboxOverlay \
+	AccentColorXiaomiOverlay \
+	AccentColorBlackOverlay \
+	AccentColorCinnamonOverlay \
+        AccentColorCoralOverlay \
+	AccentColorFerrariRedOverlay \
+	AccentColorOceanOverlay \
+	AccentColorOrchidOverlay \
+	AccentColorSpaceOverlay \
+	AccentColorGreenOverlay \
+	AccentColorPurpleOverlay 
+
+# Empty
+PRODUCT_PACKAGES += \
+    EmptyOverlay
+
+#IconShapes
+PRODUCT_PACKAGES += \
+        IconShapeCylinderOverlay \
+	IconShapeHexagonOverlay \
+	IconShapeRoundedHexagonOverlay \
+	IconShapeRoundedRectOverlay \
+	IconShapeSquircleOverlay \
+	IconShapeTeardropOverlay \
+	IconShapeVesselOverlay \
+        IconShapeTaperedRectOverlay \
+        IconShapePebbleOverlay 
+
 # Google Play services configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.clientidbase=android-google \
