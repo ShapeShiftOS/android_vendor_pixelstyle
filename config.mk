@@ -94,7 +94,6 @@ PRODUCT_PACKAGES += \
         PrimaryColorDarkBlueOverlay \
         PrimaryColorAlmostBlackOverlay \
         PrimaryColorBlissOverlay \
-        PrimaryColorBlissClearOverlay \
         PrimaryColorEyeSootherOverlay \
         PrimaryColorOneplusDarkOverlay \
         PrimaryFlameOverlay \
