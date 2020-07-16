@@ -55,7 +55,7 @@
     <string name="theme_overlay_icon_settings_throwback">com.android.theme.icon_pack.filled.settings</string>
     <string name="theme_overlay_icon_sysui_throwback">com.android.theme.icon_pack.filled.systemui</string>
     <string name="theme_overlay_shape_throwback">com.android.theme.icon.roundedrect</string>
-    <string name="theme_overlay_primary_throwback">com.android.theme.color.primary.blissclear</string>
+    <string name="theme_overlay_primary_throwback">com.android.theme.color.primary.mayurdark</string>
     <string name="theme_wallpaper_title_throwback">Orange Boi Wallpaper</string>
     <string name="theme_wallpaper_attribution_throwback">Meh</string>
 
