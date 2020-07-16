@@ -18,9 +18,9 @@ LOCAL_PATH := vendor/pixelstyle
 PRODUCT_PACKAGES += \
     NexusWallpapersStubPrebuilt2019Static \
     ShiftPapers \
+    PixelThemesStub2019 \
     OPScreenRecorder \
     SafetyHubPrebuilt \
-    ShapeShiftOverlayStub \
     SettingsIntelligenceGooglePrebuilt
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
@@ -144,10 +144,6 @@ PRODUCT_PACKAGES += \
 	AccentColorSpaceOverlay \
 	AccentColorGreenOverlay \
 	AccentColorPurpleOverlay 
-
-# Empty
-PRODUCT_PACKAGES += \
-        EmptyOverlay
 
 #IconShapes
 PRODUCT_PACKAGES += \
