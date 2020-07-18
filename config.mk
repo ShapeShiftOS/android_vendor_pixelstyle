@@ -19,13 +19,17 @@ PRODUCT_PACKAGES += \
     NexusWallpapersStubPrebuilt2019Static \
     ShiftPapers \
     PixelThemesStub2019 \
-    OPScreenRecorder \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
     MatchmakerPrebuiltPixel4
+endif
+
+ifeq ($(TARGET_OOS_RECORDER),true)
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
 endif
 
 # Offline charger
