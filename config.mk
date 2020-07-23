@@ -93,17 +93,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 #Primaries
 PRODUCT_PACKAGES += \
-        PrimaryColorOceanOverlay \
-	PrimaryColorNatureOverlay \
-        PrimaryColorDarkBlueOverlay \
         PrimaryColorAlmostBlackOverlay \
         PrimaryColorBlissOverlay \
-        PrimaryColorEyeSootherOverlay \
         PrimaryColorOneplusDarkOverlay \
-        PrimaryFlameOverlay \
         PrimaryColorCharcoalBlackOverlay \
         PrimaryColorLeadBlackOverlay \
-        PrimaryColorSolarizedDarkOverlay \
         PrimaryEtherealOverlay \
 	PrimaryColorBlackOverlay    
 
