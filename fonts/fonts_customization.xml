@@ -134,4 +134,58 @@
     <family customizationType="new-named-family" name="cocon-regular">
         <font weight="300" style="normal">Cocon-RegularTR.ttf</font>
     </family>
+
+    <family customizationType="new-named-family" name="firasans">
+        <font weight="400" style="normal">FiraSans-Regular.ttf</font>
+        <font weight="400" style="italic">FiraSans-Italic.ttf</font>
+        <font weight="500" style="normal">FiraSans-Medium.ttf</font>
+        <font weight="500" style="italic">FiraSans-MediumItalic.ttf</font>
+        <font weight="700" style="normal">FiraSans-Bold.ttf</font>
+        <font weight="700" style="italic">FiraSans-BoldItalic.ttf</font>
+    </family>
+
+    <alias name="firasans-medium" to="firasans" weight="500" />
+    <alias name="firasans-semi-bold" to="firasans" weight="600" />
+    <alias name="firasans-bold" to="firasans" weight="700" />
+    <alias name="times" to="firasans" />
+    <alias name="times new roman" to="firasans" />
+    <alias name="palatino" to="firasans" />
+    <alias name="georgia" to="firasans" />
+    <alias name="baskerville" to="firasans" />
+    <alias name="goudy" to="firasans" />
+    <alias name="fantasy" to="firasans" />
+    <alias name="ITC Stone Serif" to="firasans" />
+
+    <family customizationType="new-named-family" name="samsungone">
+        <font weight="400" style="normal">SamsungOne.ttf</font>
+    </family>
+    <alias name="samsungone-bold" to="samsungone" weight="600" />
+    <alias name="times" to="samsungone" />
+    <alias name="times new roman" to="samsungone" />
+    <alias name="palatino" to="samsungone" />
+    <alias name="georgia" to="samsungone" />
+    <alias name="baskerville" to="samsungone" />
+    <alias name="goudy" to="samsungone" />
+    <alias name="fantasy" to="samsungone" />
+    <alias name="ITC Stone Serif" to="samsungone" />
+
+    <family customizationType="new-named-family" name="san-francisco-pro-display">
+      <font weight="400" style="normal">SFProDisplay-Regular.ttf</font>
+      <font weight="500" style="normal">SFProDisplay-Medium.ttf</font>
+    </family>
+    <alias name="san-francisco-pro-display-medium" to="san-francisco-pro-display" weight="500" />
+
+    <family customizationType="new-named-family" name="san-francisco-pro-text">
+      <font weight="400" style="normal">SFProText-Regular.ttf</font>
+      <font weight="500" style="normal">SFProText-Medium.ttf</font>
+    </family>
+    <alias name="san-francisco-pro-text-medium" to="san-francisco-pro-text" weight="500" />
+
+    <family customizationType="new-named-family" name="linotte">
+        <font weight="300" style="normal">Linotte.ttf</font>
+    </family>
+
+    <family customizationType="new-named-family" name="evolvesans">
+        <font weight="300" style="normal">EvolveSans.ttf</font>
+    </family>
 </fonts-modification>
