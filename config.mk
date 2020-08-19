@@ -57,6 +57,18 @@ else
     PRODUCT_COPY_FILES += $(LOCAL_PATH)/bootanimation/bootanimation-dark_1080.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation-dark.zip
 endif
 
+# Launcher Config
+ifeq ($(TARGET_LAUNCHER_CHOICE),oplauncher)
+include vendor/oplauncher/OPLauncher2.mk
+else ifeq ($(TARGET_LAUNCHER_CHOICE),pixel)
+PRODUCT_PACKAGES += \
+     NexusLauncherRelease
+else
+     $(warning "Pixelstyle: TARGET_LAUNCHER_CHOICE is invalid or undefined, building Lawnchair")
+
+include vendor/lawnchair/lawnchair.mk
+endif
+
 # Gestures
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
