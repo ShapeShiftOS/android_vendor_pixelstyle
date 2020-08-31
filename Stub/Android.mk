@@ -22,6 +22,7 @@ LOCAL_PRODUCT_MODULE := true
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 
 LOCAL_MANIFEST_FILE := AndroidManifest.xml
+LOCAL_OVERRIDES_PACKAGES := WallpaperPickerGoogleRelease
 
 LOCAL_PACKAGE_NAME := FluidThemesStub
 LOCAL_SDK_VERSION := current
