@@ -33,4 +33,8 @@
 
     <!-- Launcher package name for overlaying icons. -->
     <string name="launcher_overlayable_package">com.google.android.apps.nexuslauncher</string>
+
+    <!-- ThemePicker package name for overlaying icons. -->
+    <string name="themepicker_overlayable_package">com.android.wallpaper</string>
+
 </resources>
