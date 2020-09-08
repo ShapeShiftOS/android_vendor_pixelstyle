@@ -22,8 +22,8 @@ PRODUCT_PACKAGES += \
 # Packages
 PRODUCT_PACKAGES += \
     FluidThemesStub \
-    EmptyOverlay
-
+    EmptyOverlay \
+    SettingsIntelligenceGooglePrebuilt
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
