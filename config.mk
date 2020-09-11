@@ -307,4 +307,4 @@ PRODUCT_COPY_FILES += \
     vendor/pixelstyle/fonts/FiraSans-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/FiraSans-Regular.ttf 
 
     # Volume Dialog plugins
-    -include packages/apps/Plugins/plugins.mk
+    -include vendor/pixelstyle/PotatoPlugins/plugins.mk
