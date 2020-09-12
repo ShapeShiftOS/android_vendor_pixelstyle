@@ -66,6 +66,8 @@ endif
 # Launcher Config
 ifeq ($(TARGET_LAUNCHER_CHOICE),oplauncher)
 include vendor/oplauncher/OPLauncher2.mk
+else ifeq ($(TARGET_LAUNCHER_CHOICE),oneui)
+include vendor/oneuilauncher/OneUILauncher.mk
 else ifeq ($(TARGET_LAUNCHER_CHOICE),pixel)
 PRODUCT_PACKAGES += \
      NexusLauncherRelease
