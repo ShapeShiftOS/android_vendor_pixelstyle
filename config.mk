@@ -64,17 +64,17 @@ else
 endif
 
 # Launcher Config
-ifeq ($(TARGET_LAUNCHER_CHOICE),oplauncher)
-include vendor/oplauncher/OPLauncher2.mk
+ifeq ($(TARGET_LAUNCHER_CHOICE),lawnchair)
+include vendor/lawnchair/lawnchair.mk
 else ifeq ($(TARGET_LAUNCHER_CHOICE),oneui)
 include vendor/oneuilauncher/OneUILauncher.mk
 else ifeq ($(TARGET_LAUNCHER_CHOICE),pixel)
 PRODUCT_PACKAGES += \
      NexusLauncherRelease
 else
-     $(warning "Pixelstyle: TARGET_LAUNCHER_CHOICE is invalid or undefined, building Lawnchair")
+     $(warning "Pixelstyle: TARGET_LAUNCHER_CHOICE is invalid or undefined, building OnePlus Launcher")
 
-include vendor/lawnchair/lawnchair.mk
+include vendor/oplauncher/OPLauncher2.mk
 endif
 
 # Gestures
